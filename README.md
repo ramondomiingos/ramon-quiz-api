@@ -5,12 +5,14 @@ RESTApi usando node-Express + MongoDb para aplicação de questionários.
 É necessario um criar configurações
 de ambiente, com as seguintes informações:
 
-´´´javascript
+```javascript
+
 SECRET_JWT= XX
 MONGOUSER=XXX
 MONGOPASS=XXXX
 PORT=XXxx
-´´´
+
+```
  
  ### para fins didático, estou utlizando o MongoDb Atlas .mongodb.net
 
