@@ -45,7 +45,7 @@ headers['authorization'] = 'Bearer <token>'
         "username": "joazinho",
         "name": "joao",
         "created_at": "2020-05-16T20:44:39.000Z",
-        "typeUser":1
+        "typeUser":1,
         "__v": 0
     }
 ```
