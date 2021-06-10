@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const routes = require('./routes')
 const app = express();
 
-console.log(process.env.MONGOUSER)
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
