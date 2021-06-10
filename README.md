@@ -5,12 +5,14 @@ RESTApi usando node-Express + MongoDb para aplicação de questionários.
 É necessario um criar configurações
 de ambiente, com as seguintes informações:
 
-´´´
+```javascript
+
 SECRET_JWT= XX
 MONGOUSER=XXX
 MONGOPASS=XXXX
 PORT=XXxx
-´´´
+
+```
  
  ### para fins didático, estou utlizando o MongoDb Atlas .mongodb.net
 
@@ -23,7 +25,7 @@ body
 	"confirmpassword":"123456",
 	"name":"joao",
 	"username": "joazinho",
-    "typeUser":1
+   	"typeUser":1
 }
 ```
 ## POST /auth
@@ -36,7 +38,7 @@ body
 }
 ```
 ## GET /profile
-headers['authorization'] = 'Bearer <token>'
+headers['authorization'] = 'Bearer token'
 ```json
 
 
@@ -45,7 +47,7 @@ headers['authorization'] = 'Bearer <token>'
         "username": "joazinho",
         "name": "joao",
         "created_at": "2020-05-16T20:44:39.000Z",
-        "typeUser":1
+        "typeUser":1,
         "__v": 0
     }
 ```
