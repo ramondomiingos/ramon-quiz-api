@@ -7,7 +7,7 @@ de ambiente, com as seguintes informações:
 
 ```javascript
 
-SECRET_JWT= XX
+SECRET_JWT=XX
 MONGOUSER=XXX
 MONGOPASS=XXXX
 PORT=XXxx
