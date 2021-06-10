@@ -5,7 +5,7 @@ RESTApi usando node-Express + MongoDb para aplicação de questionários.
 É necessario um criar configurações
 de ambiente, com as seguintes informações:
 
-´´´
+´´´javascript
 SECRET_JWT= XX
 MONGOUSER=XXX
 MONGOPASS=XXXX
@@ -23,7 +23,7 @@ body
 	"confirmpassword":"123456",
 	"name":"joao",
 	"username": "joazinho",
-    "typeUser":1
+   	"typeUser":1
 }
 ```
 ## POST /auth
@@ -36,7 +36,7 @@ body
 }
 ```
 ## GET /profile
-headers['authorization'] = 'Bearer <token>'
+headers['authorization'] = 'Bearer token'
 ```json
 
 
