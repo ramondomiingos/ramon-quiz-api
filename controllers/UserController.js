@@ -52,7 +52,7 @@ module.exports = {
             var token = jwt.sign({ usuario}, secret_jwt ,  {
                 expiresIn: 3000 // expires in 5min
               });
-              res.status(200).send({ 'access-token': token });
+              res.status(200).send({ 'access_token': token });
             }
             else{
                 res.status(500).send({'error':'Login inválido!'});
